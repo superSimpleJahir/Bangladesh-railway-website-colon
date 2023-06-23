@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1150px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+/* Nav section */
+.container .nav_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 1150px;
+  top: 0;
+  z-index: 999;
+  background: #FFF;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .nav_link .log a {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.log a .railway_logo {
+  margin-right: 10px;
+}
+
+.log a .railway_text {
+  color: #DA924E;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav_link .menu_link {
+  display: flex;
+  column-gap: 15px;
+}
+
+.nav_link .menu_link li a {
+  font-size: 15px;
+  transition: .3s;
+  padding: 8px 15px;
+  color: #333;
+}
+
+.nav_link .menu_link li a:hover {
+  color: #0F2444 !important;
+  border-bottom: 2px solid #0F2444;
+}
+
+/* hero section */
+.hero_section {
+  margin-top: 150px;
+}
+
+.container .hero_section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 30px;
+}
+
+.container .hero_section .form_section {
+  margin-top: 70px;
+  width: 50%;
+}
+
+.form_section .from_to {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.form_section .from_to label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.form_section .from_to input {
+  display: block;
+  margin-bottom: 7px;
+  width: 240px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_section .date_class {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.form_section .date_class label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.form_section .date_class input {
+  display: block;
+  margin-bottom: 7px;
+  width: 240px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_section .date_class select {
+  display: block;
+  margin-bottom: 7px;
+  width: 263px;
+  padding: 8px 12px;
+  background: #fff;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_section .date_class .date_input {
+  position: relative;
+}
+
+.form_section .date_class .date_input img {
+  position: absolute;
+  top: 34px;
+  right: 6px;
+}
+
+.hero_section .btn {
+  width: 99%;
+}
+
+.hero_section .btn button {
+  width: 100%;
+  padding: 15px 0;
+  background: #006747;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: inherit;
+  border: none;
+}
+
+.hero_section .btn button:hover {
+  background: #079D49;
+
+}
+
+.container .hero_section .bkash_add_section {
+  width: 50%;
+}
+
+.container .nagad_image {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.container .nagad_image img {
+  border-radius: 8px;
+}
+
+.search_select_pay_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+
+}
+
+.search_select_pay_section .flex_section {
+  width: 250px;
+}
+
+.search_select_pay_section .flex_section h2 {
+  margin: 20px 0;
+  color: #000;
+  font-size: 28px;
+}
+
+.search_select_pay_section .flex_section p {
+  margin: 20px 0;
+  color: #6a5d5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.tickets {
+  margin-bottom: 100px;
+}
+
+.tickets_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets_section .tickets_image {
+  width: 413px;
+  padding: 15px;
+}
+
+.tickets_section .tickets_text {
+  width: 640px;
+  padding: 15px;
+}
+
+.tickets_section .tickets_text h2 {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tickets_section .tickets_text li {
+  display: flex;
+  margin: 20px 0;
+}
+
+.tickets_section .tickets_text li .icon i {
+  font-size: 18px;
+  background: #006747;
+  border-radius: 50%;
+  padding: 8px;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.tickets_section .tickets_text li a {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.tickets_section .tickets_text li span {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.paymeny {
+  border-top: 1px solid #d1d5dd;
+  border-bottom: 1px solid #d1d5dd;
+}
+
+.payment_section {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+}
+
+.payment_section .bkash {
+  width: 40px;
+}
+
+.payment_section .nagad {
+  width: 77px;
+}
+
+.payment_section .rocket {
+  width: 69px;
+}
+
+.payment_section .master {
+  width: 56px;
+}
+
+.payment_section .visa {
+  width: 93px;
+}
+
+.payment_section .nexus {
+  width: 68px;
+}
+
+
+.system_section {
+  text-align: center;
+  margin: 40px 0 50px;
+}
+
+.system_section p {
+  line-height: 30px;
+}
+
+footer {
+  padding: 30px;
+  border-top: 3px solid #079d49;
+}
+
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_flex .railway_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_flex .railway_footer img {
+  width: 55px;
+  margin-right: 10px;
+}
+
+.footer_flex .railway_footer h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #DA924E;
+}
+.footer_flex .railway_footer p {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #006747;
+  font-weight: 400;
+  padding-top: 8px;
+}
+.footer_flex .policy_footer ul{
+  display: flex;
+}
+.footer_flex .policy_footer ul li{
+  position: relative;
+  padding: 0 7px;
+}
+.footer_flex .policy_footer ul li a{
+  font-size: 15px;
+  color: #006747;
+  font-weight: bold;
+}
+.footer_flex .policy_footer ul li a:hover{
+  text-decoration: underline;
+}
+.footer_flex .policy_footer ul li::after{
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 1px;
+  top: 2px;
+  right: -2px;
+  background: #000;
+}
+.footer_flex .policy_footer ul li:last-child:after{
+  display: none;
+}
+
+.powered_by p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.powered_by h3{
+  font-size: 28px;
+  font-weight: bold;
+  color: #006747;
+}
+

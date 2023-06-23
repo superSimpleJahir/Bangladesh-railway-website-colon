@@ -1,0 +1,32 @@
+.container {
+    max-width: 1150px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container .nav_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    .nav_link{
+        a{
+            display: flex;
+            img{
+                width: 60px;
+            }
+        }
+    }
+}
